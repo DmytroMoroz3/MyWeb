@@ -1,0 +1,117 @@
+body{
+	background: white;
+	margin: 0 0;
+ }
+
+.Header{
+	background: #188ae2;
+	height: 50px;
+	margin-left: 20%;
+	position: fixed;
+	width: 80%;
+	z-index: 1;
+}
+
+.Sidebar{
+	background: #414042;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    float: left;
+}
+
+.Sidebar2{
+    background: #e6e7e8;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 85%;
+}
+
+.Main{
+	margin-top: 50px;
+	margin-right: 15%;
+	width: 65%;
+	float: right;
+    background: #edf0f5;
+    position: relative;
+}
+
+.Statistic{
+	margin-top: 20px;
+	width: 270px;
+	height: 90px;
+	background: yellow;
+}
+
+.Visit_event{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.Visitors{
+width: 558px;
+height:  350px;
+background: yellow;
+}
+
+.Events{
+	width: 270px;
+	height: 172.5px;
+	background: yellow;
+}
+
+.Weather{
+	width: 270px;
+	height: 172.5px;
+	background: yellow;
+}
+
+.Top{
+	width: 480px;
+	height: 250px;
+	background: yellow;
+}
+
+.Top_order{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Order{
+	width: 340px;
+	height: 250px;
+	background: yellow;
+}
+
+.comments{
+	width: 840px;
+	height: 320px;
+	background: yellow;
+	margin-top: 10px;
+	margin-left: 18px;
+	margin-right: 10px;
+}
+
+.flex1{
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#flex2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
